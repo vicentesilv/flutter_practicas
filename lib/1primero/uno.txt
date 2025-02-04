@@ -1,0 +1,20 @@
+estructura de una app flutter
+las aplicaciones flutter estan compuestas por lo que vienen siendo widgets.
+un widget viene siendo el equivalente de un componente en angular o react 
+es decir es una clase la cual contiene algo en este caso suele ser una funcion 
+buid la cual returna elementos u otros widgets que juntos conforman la representacion
+visual de nuestra aplicacion.
+
+runApp(funcion)
+
+es una funcion que ejecutara nuestra clase o widget principal de la aplicacion.
+
+el widget principal de la app debe de devolver un patron de diseño ya sea materialApp
+o cupertinoApp.
+
+de momento estoy usando unicamente materialApp el cual tiene un estructurador de la aplicacion
+llamado scaffold en el caso de cupertinoApp seria cupertinoPageScaffold claro esto puede llegar a variar
+segun el tipo de aplicacion a realizar, estos normalmete suelen contener un appbar un home entre otros 
+detalles.
+
+otro widget es el center el cual como su nombre lo dice sirve para centrar lo que este en su interior.

@@ -1,0 +1,5 @@
+widgets:
+container: sirve para contener alguna parte de la aplicacion este puede llevar widgets tales 
+como center o children que igualmente llevarian mas widgets para hacer una interfaz grafica
+mas estetica y estructurada.
+

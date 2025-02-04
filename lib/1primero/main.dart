@@ -11,6 +11,8 @@ class MiApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: "Mi primera app flutter",
       home: Inicio(),
+    
+
     );
   }  
 }
@@ -41,7 +43,7 @@ class _InicioState extends State<Inicio> {
         Text("Mi primera app flutter",
         style: TextStyle(color: Colors.black),
 
-        )
+        ),
 
 
       ),
