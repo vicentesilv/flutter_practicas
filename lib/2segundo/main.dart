@@ -16,13 +16,31 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       home: Scaffold(
-        appBar: AppBar(
-          title: const Text('Flutter Demo Home Page'),
-        ),
-        body: Container(
-          child:  Image.network("https://images.wikidexcdn.net/mwuploads/wikidex/thumb/7/77/latest/20150621181250/Pikachu.png/800px-Pikachu.png"),
-        )
-      ),
+          appBar: AppBar(
+            title: const Text('Flutter Demo Home Page'),
+          ),
+          body: ListView(
+              children: [
+                Container(
+                  padding: EdgeInsets.all(20.0),
+                  child: Image.network(
+                    "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/7/77/latest/20150621181250/Pikachu.png/800px-Pikachu.png",
+                    width: 200.0,
+                  ),
+                ),
+                Container(
+                  padding: EdgeInsets.all(20.0),
+                  child: Image.network(
+                      "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/7/77/latest/20150621181250/Pikachu.png/800px-Pikachu.png"),
+                ),
+                Container(
+                  padding: EdgeInsets.all(20.0),
+                  child: Image.network(
+                      "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/7/77/latest/20150621181250/Pikachu.png/800px-Pikachu.png"),
+                  )
+              ],
+            ),
+          )
     );
   }
 }

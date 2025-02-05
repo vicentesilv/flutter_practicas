@@ -3,3 +3,11 @@ container: sirve para contener alguna parte de la aplicacion este puede llevar w
 como center o children que igualmente llevarian mas widgets para hacer una interfaz grafica
 mas estetica y estructurada.
 
+column: sirve como un contendor el cual acomoda su contenido en forma de columna
+
+row:  sirve como un contendor el cual acomoda su contenido en forma de fila
+
+listview:  sirve como un contendor de multiples hijos
+
+image.network: sirve para mostrar una imagen la cual recibe como parametro en forma de url
+
