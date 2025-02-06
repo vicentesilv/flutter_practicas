@@ -1,0 +1,10 @@
+mainAxisAlignment: MainAxisAlignment.center,     // determina la alineacion entre los elementos los hijos
+crossAxisAlignment: CrossAxisAlignment.start, // determina la alineacion entre los elementos los hijos
+mainAxisSize: MainAxisSize.max,                      //dice cuanto espacio debe ocupar el widget 
+width: MediaQuery.of(context).size.width*0.5, //define el ancho del contenedor
+height: MediaQuery.of(context).size.height // define el alto del contenedor
+
+
+ademas de estas pocas formas de alineacion en flutter tambien hay elementos tales como los botones
+los cuales tambien son capaces de recibir algunos widgets que se pueden alinear de diferente manera 
+dentro de este
